@@ -1600,7 +1600,9 @@ align-items:center;
 }
 
 .footer-logo-daniels{
-height:55px;
+width:320px;
+max-width:80%;
+height:auto;
 object-fit:contain;
 }
 
@@ -1782,5 +1784,6 @@ background:#D88A86;
 .cerrar-album:hover::after{
 background:#F7F3F2;
 }
+
 
 
