@@ -1593,45 +1593,18 @@ input[type="radio"] {
   }
 }
 
-/* =======================
-   FOOTER
-======================= */
-
-.footer {
-  background-color: #FAF8F4; /* beige */
-  padding: 2.5rem 1.5rem;
+.footer-contenido{
+display:flex;
+justify-content:center;
+align-items:center;
 }
 
-.footer-contenido {
-  max-width: 900px;
-  margin: 0 auto;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.footer-logo-daniels{
+height:55px;
+object-fit:contain;
 }
 
-/* LOGO */
-.footer-logo {
-  width: 90px;
-}
 
-/* REDES */
-.footer-redes {
-  display: flex;
-  gap: 1.2rem;
-}
-
-.footer-icono img {
-  width: 28px;
-  opacity: 0.85;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.footer-icono:hover img {
-  transform: scale(1.12);
-  opacity: 1;
-}
 
 @media (max-width: 480px) {
   .footer-contenido {
@@ -1809,4 +1782,5 @@ background:#D88A86;
 .cerrar-album:hover::after{
 background:#F7F3F2;
 }
+
 
